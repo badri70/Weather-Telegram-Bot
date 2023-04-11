@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, types, executor
 import requests
 import json
-from check_weather import *
+from check_weather import map_pic_code_to_icon
 
 BOT_TOKEN = Bot('5827305488:AAHNNCVoiZ8b0gUr9dYo1C81_HvMgyrNQvc')
 API_KEY = '1bd144097b729734fec660eaf17f4a92'
